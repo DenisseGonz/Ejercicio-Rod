@@ -1,0 +1,243 @@
+*{
+    top:0;
+    left: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Barra Navegación*/
+#logo{
+    text-align: left;
+    font-size: 36px;
+    width: 60%;
+    margin-left: 5%;
+}
+nav{
+    background-color: black;
+    color: white;
+    top: 0;
+    width: 100%;
+    position:absolute;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+}
+#links{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    width: 40%;
+    padding-top: 7px;
+    margin-bottom: 2%;
+    margin-right: 3%;
+}
+/*Imagen*/
+.encabezado{
+    margin: 0;
+    padding: 0;
+}
+.fondo{
+    position: absolute;
+    z-index: -1;
+    filter: brightness(50%);
+    width: 100%;
+}
+.info-header{
+    color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+h1{
+    font-size: 96px;
+    width: 70%;
+}
+h5{
+    font-size: 24px;
+    width: 50%;
+}
+.btn1{
+    background-color: rgb(226, 28, 10);
+    border: none;
+    width: 215px;
+    height: 73px;
+    color: white;
+}
+.btn2{
+    background: none;
+    border:3px solid white;
+    color: white;
+    width: 215px;
+    height: 73px;
+    margin-left: 50px;
+}
+/* Flex botones*/
+.conte-flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+section{
+    background-color:  rgb(226, 28, 10);
+    color: white;
+    text-align: center;
+    width: 23%;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+p{
+    font-size: 24px;
+}
+.flex-icon{
+    font-size: 96px;
+}
+/* Seccion normal con Zenitsu*/
+.cont_Zen{
+    margin-top: 10%;
+}
+h2{
+    font-size: 72px;
+}
+.p_zen{
+    font-size: 30px;
+}
+h2,.p_zen{
+    margin-left: 10%;
+}
+.zenitsu{
+    position: relative;
+    width: 25%;
+    float: right;
+    margin-right: 10%;
+}
+.con_borde{
+    padding: 30px;
+    border: 5px solid orange;
+    width: 50%;
+    text-align: justify;
+    margin-top: 5%;
+}
+
+/* Tabla */
+table{
+    margin-top: 10%;
+    width: 90%;
+}
+tr{
+    height: 200px;
+}
+td{
+    width: 30%;
+}
+.tanjiro{
+    width: 100%;
+    height: 40%;
+}
+.inosuke, .giyuu, .uzui, .shinobu{
+    width: 100%;
+    height: 215px;
+}
+.demon{
+    width: 100%;
+    height:665px;
+}
+
+/* Formulario */
+.cont_form{
+    background: linear-gradient(90deg, rgba(242,0,0,1) 0%, rgb(251, 116, 26) 35%, rgba(255, 240, 75, 0.8) 100%);
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+form{
+    background-color: rgba(229, 229, 229, 0.5);
+    width: 45%;
+    margin: 3%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap column;
+    padding: 30px;
+    text-align: center;
+    padding-bottom: 130px;
+}
+.lorem_form{
+    width: 30%;
+    color: white;    
+}
+.naran{
+    background-color: orangered;
+    border: none;
+}
+input{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 45px;
+    border-radius: 20px;
+}
+.botones{
+    display: flex;
+    justify-content: space-around;
+}
+.btn_f1{
+    width: 230px;
+}
+
+/*Div blanco x2*/
+.clase_aniki{
+    margin-top: 10%;
+}
+.aniki{
+    position: relative;
+    width: 25%;
+    float: left;
+    margin-left: 10%;
+}
+.lorem_aniki,.p_aniki{
+    margin-right: 10%;
+    margin-left: 40%;
+}
+.estrellitas{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 50px;
+}
+.icon-star{
+    color: yellow;
+}
+
+/*Pinche footer al fin. 
+Pd. Perdon Rod*/
+
+footer{
+    margin-top: 10%;
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    bottom: 0;
+    right: 10px;   
+}
+h3{
+    font-size: 36px;
+}
+.p_foo{
+    width: 45%;
+    font-size: 18px;
+}
+h3,.p_foo{
+    margin-left: 5%;
+}
+.sun_foo{
+    display: flex;
+    float: right;
+    margin-right: 5%;
+    margin-top: 3.5%;
+    font-size: 96px;
+    justify-content: center;
+}
